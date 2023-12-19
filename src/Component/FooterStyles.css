@@ -1,0 +1,39 @@
+ .footer{
+    padding: 4rem 6rem;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 10rem;
+}
+.top .image{
+    width: 40%;
+    margin-top: 25px;
+    /* margin-left: 10%; */
+}
+.icons i{
+    margin-left: 10px;
+}
+.top .icons{
+    color: rgb(2, 2, 2);
+    margin-top: 5px;
+    font-size: 2rem;
+    margin-left: 3%;
+}
+.top .icons:hover{
+    color: rgb(36, 97, 183);
+}
+.Company{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem 0rem 30rem ;
+}
+
+
