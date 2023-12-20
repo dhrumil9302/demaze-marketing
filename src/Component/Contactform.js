@@ -1,6 +1,6 @@
 import "./ContactFormStyles.css";
  
-function Contactform(){
+function Contactform(){ 
     return(
         <>
         <div className="form-container">
