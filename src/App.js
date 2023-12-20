@@ -2,16 +2,26 @@ import "./index.css";
 import Navbar from "./Component/Navbar";
 import Home from "./routes/Home";
 import Footer from "./Component/Footer";
-// import Hero from "./routes/Hero";
-import {Routes, Router} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
+import AboutUs from "./routes/AboutUs";
+import Service from "./routes/Service";
+import Contact from "./routes/Contact";
+
 
 function App () {
   return(
     <div className="App">
       
-        <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<AboutUs/>}/>
+        <Route path="/service" element={<Service/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
+        {/* <Navbar/>
         <Home/>
-        <Footer/>
+        <About/>
+        <Footer/> */}
 
      
     </div>

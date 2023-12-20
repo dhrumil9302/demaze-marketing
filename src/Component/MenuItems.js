@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title : "Service",
-        url : "/servie",
+        url : "/service",
         cName : "nav-links"
     },
     {

@@ -2,6 +2,8 @@ import "./FooterStyles.css";
 
 const Footer = () => {
   return (
+    <>
+    <hr/>
     <div className="Footer">
       <div className="top">
         <div className="image">
@@ -42,6 +44,16 @@ const Footer = () => {
       </div>
     </div>
     </div>
+
+    <div className="copyrights">
+      <div className="line">
+        <p>
+          <marquee>All right reserved/By XYZ</marquee>
+          
+        </p>
+      </div>
+    </div>
+</>
   );
 };
 
