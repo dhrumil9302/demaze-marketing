@@ -10,7 +10,6 @@ function AboutUs() {
     <Navbar/>
    
     <About/>
-    <Service/>
     <Footer/>
     </>
   );
