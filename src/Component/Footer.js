@@ -1,60 +1,58 @@
 import "./FooterStyles.css";
-
+// import {
+//   FaFacebook,
+//   FaSkype,
+//   FaTwitter,
+//   FaInstagram,
+//   FaLinkedin,
+//   FaPinterest,
+// } from "react-icons/fa";
 const Footer = () => {
   return (
-    <>
-    <hr/>
-    <div className="Footer">
-      <div className="top">
-        <div className="image">
-          <img alt="logoImg" src="./assets/logo.png" />
+    <div className="footer">
+            <div className="top">
+                <div className="demaze">
+                  <img src="/assets/logo.png" alt="image"/>
+                   </div>
+                <div>
+                    <a href="/">
+                        <i className="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-pinterest-square"></i>
+                    </a>
+                    <a href="/">
+                        <i className="fa-brands fa-twitter-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div className="bottom">
+                <div>
+                    <h4>Company</h4>
+                    <a href="/">About Us</a><br/>
+                    <a href="/">Services</a><br/>
+                    <a href="/">Projects</a><br/>
+                    <a href="/">Contact Us</a><br/>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <a href="/">Mobile App Development</a><br/>
+                    <a href="/">Website Development</a><br/>
+                    <a href="/">AI Development</a><br/>
+                    <a href="/">Game Development</a><br/>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <a href="/">D-814, Ganesh Glory 11, Jagatpur <br/>RoadRoad, S.G. Highway, <br/>Gota, Ahmedabad, Gujarat, 382470</a><br/>
+                    <a href="/">(+91) 7016660537</a><br/>
+                    <a href="/">info@demaze.in</a><br/>
+                </div>
+            </div>
+                
         </div>
-        <div className="icons">
-          <i className="fa-brands fa-facebook-square"></i>
-          <i className="fa-brands fa-twitter-square"></i>
-          <i class="fa-brands fa-skype"></i>
-          <i className="fa-brands fa-instagram-square"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-      </div>
-    <div className="Company">
-      <div>
-        <h4>Company</h4>
-        <p>About Us</p>
-        <p>Servic</p>
-        <p>About</p>
-        <p>Contact Us</p>
-      </div>
-
-      <div>
-        <h4>Services</h4>
-        <p>Mobile App Development</p>
-        <p>Website Development</p>
-        <p>AI Development</p>
-        <p>Game Developmentes</p>
-      </div>
-
-      <div>
-        <h4>Contact Us</h4>
-        <p>D-814,Ganesh Glory 11,jagatpur </p>
-        <p>Road,S.G.Highway,Gota,</p>
-        <p>Ahmedabad,Gujarat,382470</p>
-        <p>(+91) 7016660537</p>
-        <p>info@demaze.in</p>
-      </div>
-    </div>
-    </div>
-
-    <div className="copyrights">
-      <div className="line">
-        <p>
-          <marquee>All right reserved/By XYZ</marquee>
-          
-        </p>
-      </div>
-    </div>
-</>
   );
 };
-
 export default Footer;

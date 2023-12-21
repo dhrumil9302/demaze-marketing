@@ -90,26 +90,26 @@
 .about-right{
     margin-top: -3%;
 }
-.heading{
+.about-heading{
     position: relative;
     max-width: 550px;
     margin-bottom: px;
     z-index: 3;
 }
-.heading h3{
+.about-heading h3{
     font-size: 27px;
     color: rgb(17, 107, 210);
     font-weight: 500;
     margin-bottom: 5px;
     line-height: 0.6;
 }
-.heading h1{
+.about-heading h1{
     font-size: 50px;
     color: black;
     font-weight: 550;
     line-height: 1;
 }
-.heading p{
+.about-heading p{
     font-weight: 16px;
     color: black;
     margin: 10px 0px 20px;
@@ -162,7 +162,7 @@
     justify-content: center;
     background-color: rgb(120, 180, 240);
     border-radius: 100% 100% 100% 100%;
-    margin: 5px;
+    margin: 2px;
     font-size: 4vh;
     margin-top: 10%;
 }
@@ -184,11 +184,89 @@ h4{
     .features{
         grid-template-columns: 1fr, 1fr;
     }
+    .about-contents{
+        grid-template-columns: 1fr;
+        grid-gap: 25px 0px;
+        margin: 0 10px  0 5px;
+    }
+    .about-heading{
+        margin-left: -35px;
+        /* position: relative; */
+        /* max-width: 550px; */
+        /* margin-bottom: px; */
+        /* z-index: 3; */
+    }
+    .about-heading h3{
+        font-size: 20px;
+    }
+    .about-heading h1{
+        font-size: 32px;
+    }
+    .about-heading p{
+        font-size: 12px;
+    }
+    .about-facilities{
+        margin-left: -45px;
+    }
+    .about-facilities li{
+        font-size: 12px;
+    }
+    .about-btn{
+        margin-left: -12px;
+        height: 35px;
+        width: 20%;
+        font-size: 10px;
+    }
+    .states{
+        margin-top: -25px;
+    }
+    .states-container{
+        display: table-column;
+    }
+    .round{
+        width: -70%;
+        height: -40%;
+        margin-left: 50%;
+    }
+    .round h4{
+        margin-top: 22%;
+    }
+    .p-text{
+        margin-left: 70%;
+    }
+
+    
 }
 @media (max-width: 668px){
     .features{
         grid-template-columns: 1fr;
     }
+        .about-left{
+        margin: 0 20px;
+    }
+    .about-left img{
+        width: 50%;
+        min-width: 300px;
+        min-height: auto;
+    }
+    .about-bgimg{
+        width: 70%;
+        height: 70%;
+    }
     
 }
-@media (max-width: 565px){}
+@media (max-width: 565px){
+    .about-left{
+        margin: 0 20px;
+    }
+    .about-left img{
+        width: 50%;
+        min-width: 300px;
+        min-height: auto;
+    }
+    .about-bgimg{
+        width: 70%;
+        height: 70%;
+    }
+
+}

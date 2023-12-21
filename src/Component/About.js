@@ -42,7 +42,7 @@ function About() {
           </div>
           
             <div className="about-right">
-              <div className="heading">
+              <div className="about-heading">
                 <h3>About Us</h3>
                   <h1>We Work To Gurantee Your Success</h1> 
                     <p>Loremipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmood tempor incididunt ut labore et dolor magna aliqua. </p> 

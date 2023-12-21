@@ -2,6 +2,21 @@
     margin: 4rem 6rem;
     color: #2a2a2a;
 }
+
+.form-box{
+    position: relative;
+    width: 90%;
+    height: 85vh;
+    margin: 0px 75px;
+    background-color: rgb(224, 229, 235);
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.form-box h1{
+    /* margin-left: 6%; */
+    padding:  40px 0 0 60px;
+}
 .form-container form{
     padding-top: 3rem;
     display: flex;
@@ -9,21 +24,30 @@
     width: 50;
     margin: auto;
 }
-
 .form-container input{
-    height: 3rem;
+    height: 3.5rem;
+    width: 90%;
     padding: 0 1rem;
     margin-bottom: 2rem;
+    margin-left: 5%;
     border-radius: .3rem;
     border: 1px solid #2a2a2a;
 }
 .form-container textarea{
+    width: 90%;
     padding: 1rem;
+    margin: 0px 60px;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
     border: 1px solid #2a2a2a;
 }
 .form-container button{
+    margin-left: 35%;
+    width: 50vh;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(109, 171, 241);
+    color: rgb(8, 8, 8);
     display: inline;
 }
 
@@ -31,9 +55,31 @@
     .form-container{
         margin:  4rem 2rem;
     }
+    .form-box{
+        height: 70vh;
+     margin: 20px;
+    }
+    .form-box h1{
+        font-size: 25px;
+        padding:  40px 0 0 35px;
+    }
     .form-container form{
         padding-top: 2rem;
         width: 90%;
+    }
+    .form-container textarea{
+        margin: 0 15px;
+    }
+    .form-container button{
+        margin-left: 25%;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .contact-box{
+      
+        display: flex;
+        flex-direction: column;
+       
     }
     
 }

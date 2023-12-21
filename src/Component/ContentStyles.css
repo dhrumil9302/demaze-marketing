@@ -57,3 +57,20 @@
 .service .service-box a:hover{
     text-decoration: underline
 }
+@media  screen and (max-width:850px){
+    .service{
+        margin-top: -80px;
+    }
+    .heading h3{
+        font-size: 30px; 
+    }
+    .heading h1{
+        font-size: 20px;
+        line-height: 1.3;
+        margin-top: -10px;  
+    }
+    .service .contents{
+        display: flex;
+        flex-direction: column;
+    }
+}
